@@ -4,12 +4,12 @@ Some users behind NAT (doesn't have public IP) it is impossible to connect direc
 
 \* This is possible via STUN/TURN protocols, but it can be unstable. And this solution will not work for some amount of users.
 
-Short scheme:
-The user server listens to socket on 9999 port
-User relay connects to local 9999 port and remote 9999
-User relay forwarding all traffic from remote 9999 port to local 9999 port
-The remote client listens for 9999 port and waiting for a connection
-Remote curl/chrome sending traffic to 9999 port and it is forwarded to user relay
+Short scheme:  
+The user server listens to socket on 9999 port  
+User relay connects to local 9999 port and remote 9999  
+User relay forwarding all traffic from remote 9999 port to local 9999 port  
+The remote client listens for 9999 port and waiting for a connection  
+Remote curl/chrome sending traffic to 9999 port and it is forwarded to user relay  
 
 ```
 brook <-- user relay <---> server relay <-- curl
