@@ -1,3 +1,6 @@
+![80bots proxy](80bots-beam-animated-3x.gif)
+
+
 # Reverse-proxy tunnel
 
 Some users behind NAT (doesn't have public IP) it is impossible to connect directly\* to the user proxy server. But the user can connect to any public IP server. It is possible to "switch" roles between client and server since they already have established bidirectional TCP stream. In short, this is how the reverse connection works.
