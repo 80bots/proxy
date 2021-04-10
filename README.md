@@ -1,4 +1,4 @@
-![80bots proxy](80bots-beam-animated-3x.gif)
+![80bots proxy](80bots-beam-animated-3x-padding.gif)
 
 
 # Reverse-proxy tunnel
